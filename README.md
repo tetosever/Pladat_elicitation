@@ -238,7 +238,7 @@ To document the requirements we use natural language, which allows infinite expr
 List of **functional requirements**: 
 
 |**ID** |Functional-Login-GenericUser |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Users must be able to log into the application. |
 |**Priority** |High |
@@ -246,7 +246,7 @@ List of **functional requirements**:
 
 
 |**ID** |Functional-Registration-Student |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Students must be able to sign into the application. |
 |**Priority** |High |
@@ -254,7 +254,7 @@ List of **functional requirements**:
 
 
 |**ID** |Functional-ViewProfile-GenericUser |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Users must be able to view their profile. |
 |**Priority** |Middle |
@@ -262,16 +262,16 @@ List of **functional requirements**:
 
 
 |**ID** |Functional-DeleteProfile-GenericUser |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Users must be able to delete their profile. |
-| - | - |
+| - | :- |
 |**Priority** |Middle |
 |**To Verify** |Yes, ask users if they need time to reconsider. |
 
 
 |**ID** |Functional-Registration-Recruiter |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Recruiters must be able to sign into the application. |
 |**Priority** |High |
@@ -279,7 +279,7 @@ List of **functional requirements**:
 
 
 |**ID** |Functional-UpdateProfile-Student |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Students must be able to update their profile. |
 |**Priority** |Low |
@@ -287,7 +287,7 @@ List of **functional requirements**:
 
 
 |**ID** |Functional-UpdateProfile-Recruiter |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Recruiters must be able to update their profile. |
 |**Priority** |Low |
@@ -295,7 +295,7 @@ List of **functional requirements**:
 
 
 |**ID** |Functional-ViewOtherProfile-Student |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Students must be able to view recruiter-profiles. |
 |**Priority** |Middle |
@@ -303,7 +303,7 @@ List of **functional requirements**:
 
 
 |**ID** |Functional-ViewOtherProfile-Recruiter |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Recruiters must be able to view student-profiles. |
 |**Priority** |Middle |
@@ -311,16 +311,15 @@ List of **functional requirements**:
 
 
 |**ID** |Functional-SearchOffers-Student |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Students must be able to search offers. |
 |**Priority** |High |
-| - | - |
 |**To Verify** |Yes, ask students what kind of filter they want to have. |
 
 
 |**ID** |Functional-ViewOffer-Student |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Students must be able to view the information of an offer. |
 |**Priority** |High |
@@ -328,7 +327,7 @@ List of **functional requirements**:
 
 
 |**ID** |Functional-ViewOffers-Student |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Students must be able to view which offers they applied and the status. |
 |**Priority** |High |
@@ -336,7 +335,7 @@ List of **functional requirements**:
 
 
 |**ID** |Functional-ApplyOffer-Student |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Students must be able to apply to an offer. |
 |**Priority** |High |
@@ -344,7 +343,7 @@ List of **functional requirements**:
 
 
 |**ID** |Functional-CreateOffer-Recruiter |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Recruiters must be able to create an offer. |
 |**Priority** |High |
@@ -352,7 +351,7 @@ List of **functional requirements**:
 
 
 |**ID** |Functional-ViewOffer-Recruiter |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Recruiters must be able to view the information of an offer and who applied. |
 |**Priority** |High |
@@ -360,16 +359,15 @@ List of **functional requirements**:
 
 
 |**ID** |Functional-ViewOffers-Recruiter |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
-| - | - |
 |**Description** |Recruiters must be able to view their offers. |
 |**Priority** |High |
 |**To Verify** |No |
 
 
 |**ID** |Functional-UpdateOffert-Recruiter |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Recruiters must be able to update their offers. |
 |**Priority** |Low |
@@ -377,7 +375,7 @@ List of **functional requirements**:
 
 
 |**ID** |Functional-CloseOffer-Recruiter |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Recruiters must be able to close their offers. |
 |**Priority** |Middle |
@@ -385,7 +383,7 @@ List of **functional requirements**:
 
 
 |**ID** |Functional-UpdateStatus-Recruiter |
-| - | - |
+| - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Recruiters must be able to update the status of a student's application. |
 |**Priority** |High |
