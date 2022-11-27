@@ -1,7 +1,5 @@
 **PlaDat: a Software Development Process assignment 2** 
 
-[Introduction to PlaDat and goal .................................................................................................................................. 2 ](#_page1_x54.00_y70.80)[Stakeholder identification.............................................................................................................................................. 3 ](#_page2_x54.00_y147.80)[A short introduction to Requirements Engineer and Elicitation process ............................................... 7 ](#_page6_x54.00_y186.80)[Our workflow ....................................................................................................................................................................... 7 ](#_page6_x54.00_y679.80)[Background study .............................................................................................................................................................. 9 ](#_page8_x54.00_y549.80)[Stakeholder-driven elicitation: the interview ................................................................................................... 18 ](#_page17_x54.00_y708.80)[Artifact-driven elicitation: the questionnaire ................................................................................................... 21 ](#_page20_x54.00_y271.80)[Artifact-driven elicitation: the questionnaire, analysis of results ........................................................... 30 ](#_page29_x54.00_y200.80)[Summary of requirements .......................................................................................................................................... 35 ](#_page34_x54.00_y308.80)[Useful Links ........................................................................................................................................................................ 37 ](#_page36_x54.00_y417.80)[Team members ................................................................................................................................................................. 37](#_page36_x54.00_y615.80)
-
 ![](images/1.png)
 
 **Introduction to PlaDat and goal** 
@@ -134,6 +132,7 @@ Let us go, finally, to analyze stakeholders from a point of view of **importance
 |**High** |**Low** |They are to **be kept satisfied** without filling them with information about operation. |
 |**Low** |**High** |They are to be **kept informed and need to be consulted** regularly to understand how to make the system work. |
 |**Low** |**Low** |He will be given **general information**. |
+
 Let us **summarize**, then, in a  table the importance of stakeholders  extrapolated from the analysis done earlier: 
 
 **Power/Interest  High  Low ![](images/3.png)![](images/4.png)![](images/5.png)**
@@ -141,6 +140,7 @@ Let us **summarize**, then, in a  table the importance of stakeholders  extrapol
 |**High** |Internship Office e Development Team. |Data Protection Authority. |
 | - | :- | - |
 |**Low** |Students, Lecturers e HR recruiters. |Student Services staff. |
+
 **Competitors** are **not summarized** in this table because they are marginal to the pure interests of the project. We can, therefore, move on to the information elicitation stage.** 
 
 **A short introduction to Requirements Engineer and Elicitation process** 
@@ -234,9 +234,8 @@ To document the requirements we use natural language, which allows infinite expr
 |**Description** |Description of the requirement. |
 |**Priority** |Priority in implementation (High/Medium/Low). |
 |**To Verify** |Indicates whether an aspect or the requirement in its interest are to be subjected to direct elicitation with stakeholders (Yes/No). |
+
 List of **functional requirements**: 
-
-
 
 |**ID** |Functional-Login-GenericUser |
 | - | - |
@@ -265,7 +264,6 @@ List of **functional requirements**:
 |**ID** |Functional-DeleteProfile-GenericUser |
 | - | - |
 |**Type** |Functional Requirements |
-
 |**Description** |Users must be able to delete their profile. |
 | - | - |
 |**Priority** |Middle |
@@ -316,7 +314,6 @@ List of **functional requirements**:
 | - | - |
 |**Type** |Functional Requirements |
 |**Description** |Students must be able to search offers. |
-
 |**Priority** |High |
 | - | - |
 |**To Verify** |Yes, ask students what kind of filter they want to have. |
@@ -364,7 +361,6 @@ List of **functional requirements**:
 
 |**ID** |Functional-ViewOffers-Recruiter |
 | - | - |
-
 |**Type** |Functional Requirements |
 | - | - |
 |**Description** |Recruiters must be able to view their offers. |
@@ -394,6 +390,7 @@ List of **functional requirements**:
 |**Description** |Recruiters must be able to update the status of a student's application. |
 |**Priority** |High |
 |**To Verify** |No |
+
 In addition, analyzing the competitors from a performance-related perspective, we studied the performance and SEO, i.e., the set of strategies and practices aimed at increasing visibility in search engine rankings, of the two platforms. To do this, we used an ad-hoc web-app, namely GTmetrix  [(https://gtmetrix.com/),](https://gtmetrix.com/)  one  of  the  most  popular  tools  for  analyzing  a  site's performance. The result of the analysis is a GTmetrix grade, an assessment of the overall page performance. It reflects, both, how fast the page loaded for users, and how well it's built for performance, based on indicators drawn from: 
 
 - Google's speed score: PageSpeed, 
