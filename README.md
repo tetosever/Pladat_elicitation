@@ -1,8 +1,8 @@
 **PlaDat: a Software Development Process assignment 2** 
 
-    <div align="center">
-        <img src="images/1.png" />
-    </div>
+<div align="center">
+  <img src="images/1.png" />
+</div>
 
 **Introduction to PlaDat and goal** 
 
