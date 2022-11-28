@@ -140,7 +140,6 @@ Let us **summarize**, then, in a  table the importance of stakeholders  extrapol
 | Power/Interest | **High** | **Low** |
 | - | :- | - |
 |**High** |Internship Office e Development Team. |Data Protection Authority. |
-| - | :- | - |
 |**Low** |Students, Lecturers e HR recruiters. |Student Services staff. |
 
 **Competitors** are **not summarized** in this table because they are marginal to the pure interests of the project. We can, therefore, move on to the information elicitation stage.** 
@@ -819,13 +818,11 @@ We summarize, at this point, all PlaDat requirements (functional and nonfunction
 |Functional- DeleteProfile- GenericUser  |Functional Requirements  |Users must be able to delete their profile.  |Middle |
 |Functional- ReconsideraAccount- Student|Functional Requirements |Students should be able to reconsider their accounts if they are deleted in 10 days.|Low|
 |Functional- Registration- Recruiter  |Functional Requirements  |Recruiters must be able to sign into the application.  |High  |
-|Functional- UpdateProfile-Student |<p>Functional </p><p>` `Requirements  </p>|Students must be able to update their profile.  |Low |
+|Functional- UpdateProfile-Student |Functional Requirements |Students must be able to update their profile.  |Low |
 |Functional- UpdateProfile- Recruiter  |Functional Requirements  |Recruiters must be able to update their profile.  |Low |
 |Functional- ViewOtherProfile- Student  |Functional Requirements  |Students must be able to view recruiter-profiles through a schematic format. |Middle  |
 |Functional- ViewOtherProfile- Recruiter  |Functional Requirements  |Recruiters must be able to view student-profiles.  |Middle  |
-
 |Functional- SearchOffers-Student  |Functional Requirements  |Students must be able to search offers.  |High |
-| :- | :- | :- | - |
 |Functional-ViewOffer- Student  |Functional Requirements  |Students must be able to view the information of an offer through a schematic format. |High  |
 |Functional- ViewOffers-Student  |Functional Requirements  |Students must be able to view which offers they applied and the status.  |High  |
 |Functional- ApplyOffer-Student  |Functional Requirements  |Students must be able to apply to an offer.  |High  |
