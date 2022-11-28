@@ -1,6 +1,8 @@
 **PlaDat: a Software Development Process assignment 2** 
 
-![](images/1.png)
+<p align="center">
+  <img src="images/1.png"/>
+</p>
 
 **Introduction to PlaDat and goal** 
 
@@ -135,8 +137,8 @@ Let us go, finally, to analyze stakeholders from a point of view of **importance
 
 Let us **summarize**, then, in a  table the importance of stakeholders  extrapolated from the analysis done earlier: 
 
-**Power/Interest  High  Low ![](images/3.png)![](images/4.png)![](images/5.png)**
-
+| Power/Interest | **High** | **Low** |
+| - | :- | - |
 |**High** |Internship Office e Development Team. |Data Protection Authority. |
 | - | :- | - |
 |**Low** |Students, Lecturers e HR recruiters. |Student Services staff. |
@@ -265,7 +267,6 @@ List of **functional requirements**:
 | - | :- |
 |**Type** |Functional Requirements |
 |**Description** |Users must be able to delete their profile. |
-| - | :- |
 |**Priority** |Middle |
 |**To Verify** |Yes, ask users if they need time to reconsider. |
 
@@ -470,9 +471,7 @@ To do this we use, once again, the previously introduced template. List of **non
 |**ID** |NonFunctional-Compliance-AES256 |
 | - | - |
 |**Type** |Non Functional Requirements |
-
 |**Description** |To align with the European GDPR standard, PlaDat must provide AES-256 symmetric data encryption. |
-| - | :- |
 |**Priority** |High |
 |**To Verify** |No |
 
@@ -513,10 +512,9 @@ To do this we use, once again, the previously introduced template. List of **non
 | - | - |
 |**Type** |Non Functional Requirements |
 |**Description** |To ensure adequate usability, we need to create software that makes statefull HTTPS for authentication. |
-
 |**Priority** |High |
-| - | - |
 |**To Verify** |No |
+
 As a last aspect, we analyze the organization to which we propose funding, the same one in which we launch the first version of PlaDat. The University of Milano Bicocca is an Italian state university  founded  in  1998  that  was  founded  with  a  specific  mission,  as  the  LinkedIn description says, to make research the strategic foundation of all institutional activity. Today, the University of Milan-Bicocca is a multidisciplinary university that trains professionals in different  fields:  economic-legal,  scientific-technological,  medical,  sociological-statistical, psychological and pedagogical.  
 
 Information taken from: 
@@ -524,9 +522,8 @@ Information taken from:
 - [https://it.linkedin.com/school/university-degli-studi-di-milano-bicocca/; ](https://it.linkedin.com/school/university-degli-studi-di-milano-bicocca/)
 - [https://it.wikipedia.org/wiki/Universit%C3%A0_degli_Studi_di_Milano-Bicocca. ](https://it.wikipedia.org/wiki/Universit%C3%A0_degli_Studi_di_Milano-Bicocca)
 
-To understand the context and who we will need to interface with in the organization, we analyzed the stakeholders and their iterations, which can be summarized in the following 
-
-table (*already presented*).![](images/2.jpeg)
+To understand the context and who we will need to interface with in the organization, we analyzed the stakeholders and their iterations, which can be summarized in the following table (*already presented*).
+![](images/2.jpeg)
 
 It is important to point out that the mission and organization as a whole of the University of Milan Bicocca are to be strongly considered since PlaDat, as repeatedly stressed, will fit into this reality. Since we want, moreover, to obtain funds from the university, we have decided to administer a questionnaire to students that will, among other things, allow them to convince Bicocca to invest monetary resources on the basis of the concrete interest of its members. The questionnaire, then, has as a secondary objective to probe the needs, not extracted from the background study, of its users: the students. This elicitation technique was selected because of the need to receive extensive but structured feedback that is not free to interpret. On the other hand, with regard to the requirements analysis whose direct stakeholders are the recruiters, we will use an interview mode to allow for greater customization and gather ample useful insights.** 
 
@@ -816,28 +813,28 @@ We summarize, at this point, all PlaDat requirements (functional and nonfunction
 
 |**ID**  |**Type**  |**Description**  |**Priority**  |
 | - | - | - | - |
-|Functional-Login- GenericUser  |` `Functional Requirements  |` `Users must be able to log into the application.  |` `High  |
-|` `Functional- Registration-Student  |` `Functional Requirements  |` `Students must be able to sign into the application.  |` `High  |
-|` `Functional- ViewProfile- GenericUser  |` `Functional Requirements  |Users must be able to view their profile.  |` `Middle  |
-|` `Functional- DeleteProfile- GenericUser  |` `Functional Requirements  |` `Users must be able to delete their profile.  |` `Middle |
+|Functional-Login- GenericUser  |Functional Requirements  |Users must be able to log into the application.  |High  |
+|Functional- Registration-Student  |Functional Requirements  |Students must be able to sign into the application.  |High  |
+|Functional- ViewProfile- GenericUser  |Functional Requirements  |Users must be able to view their profile.  |Middle  |
+|Functional- DeleteProfile- GenericUser  |Functional Requirements  |Users must be able to delete their profile.  |Middle |
 |Functional- ReconsideraAccount- Student|Functional Requirements |Students should be able to reconsider their accounts if they are deleted in 10 days.|Low|
-|` `Functional- Registration- Recruiter  |` `Functional Requirements  |` `Recruiters must be able to sign into the application.  |High  |
-|` `Functional- UpdateProfile-Student |<p>` `Functional </p><p>` `Requirements  </p>|` `Students must be able to update their profile.  |Low |
-|` `Functional- UpdateProfile- Recruiter  |` `Functional Requirements  |` `Recruiters must be able to update their profile.  |Low |
-|` `Functional- ViewOtherProfile- Student  |` `Functional Requirements  |` `Students must be able to view recruiter-profiles through a schematic format. |` `Middle  |
-|` `Functional- ViewOtherProfile- Recruiter  |` `Functional Requirements  |` `Recruiters must be able to view student-profiles.  |Middle  |
+|Functional- Registration- Recruiter  |Functional Requirements  |Recruiters must be able to sign into the application.  |High  |
+|Functional- UpdateProfile-Student |<p>Functional </p><p>` `Requirements  </p>|Students must be able to update their profile.  |Low |
+|Functional- UpdateProfile- Recruiter  |Functional Requirements  |Recruiters must be able to update their profile.  |Low |
+|Functional- ViewOtherProfile- Student  |Functional Requirements  |Students must be able to view recruiter-profiles through a schematic format. |Middle  |
+|Functional- ViewOtherProfile- Recruiter  |Functional Requirements  |Recruiters must be able to view student-profiles.  |Middle  |
 
-|` `Functional- SearchOffers-Student  |` `Functional Requirements  |` `Students must be able to search offers.  |High |
+|Functional- SearchOffers-Student  |Functional Requirements  |Students must be able to search offers.  |High |
 | :- | :- | :- | - |
-|` `Functional-ViewOffer- Student  |` `Functional Requirements  |Students must be able to view the information of an offer through a schematic format. |High  |
-|` `Functional- ViewOffers-Student  |` `Functional Requirements  |Students must be able to view which offers they applied and the status.  |High  |
-|` `Functional- ApplyOffer-Student  |` `Functional Requirements  |` `Students must be able to apply to an offer.  |` `High  |
-|` `Functional- CreateOffer-Recruiter  |` `Functional Requirements  |` `Recruiters must be able to create an offer.  |High  |
-|` `Functional-ViewOffer- Recruiter  |` `Functional Requirements  |Recruiters must be able to view the information of an offer and who applied.  |High  |
-|Functional- ViewOffers-Recruiter |` `Functional Requirements |Recruiters must be able to view their offers. |High  |
-|` `Functional- UpdateOffert- Recruiter  |Functional Requirements |Recruiters must be able to update their offers.  |Low  |
-|Functional-CloseOffer- Recruiter |Functional Requirements  |` `Recruiters must be able to close their offers after responding to all candidates.  |Middle |
-|Functional- UpdateStatus- Recruiter  |` `Functional Requirements |Recruiters must be able to update the status of a student's application.  |High |
+|Functional-ViewOffer- Student  |Functional Requirements  |Students must be able to view the information of an offer through a schematic format. |High  |
+|Functional- ViewOffers-Student  |Functional Requirements  |Students must be able to view which offers they applied and the status.  |High  |
+|Functional- ApplyOffer-Student  |Functional Requirements  |Students must be able to apply to an offer.  |High  |
+|Functional- CreateOffer-Recruiter  |Functional Requirements  |Recruiters must be able to create an offer.  |High  |
+|Functional-ViewOffer- Recruiter  |Functional Requirements  |Recruiters must be able to view the information of an offer and who applied.  |High  |
+|Functional- ViewOffers-Recruiter |Functional Requirements |Recruiters must be able to view their offers. |High  |
+|Functional- UpdateOffert- Recruiter  |Functional Requirements |Recruiters must be able to update their offers.  |Low  |
+|Functional-CloseOffer- Recruiter |Functional Requirements  |Recruiters must be able to close their offers after responding to all candidates.  |Middle |
+|Functional- UpdateStatus- Recruiter  |Functional Requirements |Recruiters must be able to update the status of a student's application.  |High |
 |Functional- ApplyInternshipOffer- Student|Functional Requirements|The student must be able to apply for the internship-offer by sending a personal CV|Middle|
 |Fuctional- DirectMessage-Student|Functional Requirements|The students must be able to contact recruiters directly|Middle|
 |NonFunctional- Performance- GTmetrixGrade|Non Functional Requirements|To ensure competitiveness and performance, the application must exceed or equal GTMetrix grade B.|Middle|
@@ -848,6 +845,7 @@ We summarize, at this point, all PlaDat requirements (functional and nonfunction
 |NonFunctional- Accessibility- DistributedSystem|Non Functional Requirements|The at least two servers defined by the NonFunctional- Compliance-Redundancy requirement must be deployed in two different locations to avoid the problems associated with disasters.|Middle|
 |NonFunctional- Availability- LoadBalancing|Non Functional Requirements|To ensure adequate availability, we need to create software that rests on Kubernates.|Middle|
 |NonFunctional- Usability- SessionAuthentication|Non Functional Requirements|To ensure adequate usability, we need to create software that makes statefull HTTPS for authentication.|High|
+
 **Useful Links** 
 
 We report **useful links** to PlaDat here: 
@@ -861,5 +859,3 @@ We report **team members**:
 
 - Mattia Piazzalunga – 851931 
 - Matteo Severgnini – 851920 
-
---- THE END --- 
